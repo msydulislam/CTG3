@@ -1,0 +1,104 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<title>Facebook - Log In or Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	 <link rel="icon" href="ctg-icon.png" type="image/png" sizes="16x16"> 
+</head>
+
+<body class="upper_main">
+<div class="main">
+
+<div class="header">
+	<div class="logo">facebook</div>
+	
+<div class="login">
+<form action="login.php" method="get">
+	<div class="email">
+	<label>Email or Phone<br></label>
+	<input type="text" id="email-h" name="email">
+	</div>
+	<div class="password">
+	<label>Passowrd<br></label>
+	<input type="password" name="password">
+	<p>forgotten account?</p>
+	</div>
+	<div class="login-h">
+	<input type="submit" name="submit" id="login" value="Log In">
+	</div>
+	</form>
+	</div>
+
+</div>
+
+
+
+
+<div class="container">
+<div class="container-left">
+<p>Facebook helps you connect and share with the people in your life.</p>
+
+<img src="ctg1.png" alt="Facebook">
+
+</div>
+<div class="container-right">
+<h1> Create an account</h1>
+<h2> It's free and always will be.</h2>
+<form action="signup.php" method="get">
+	<input type="text" name="first_name" id="name" placeholder="First name">
+	<input type="text" name="surname" id="name" placeholder="Surname"><br>
+	<input type="text" id="entry" name="mobile_email" placeholder="Mobile number or email address"><br>
+	<input type="text" name="re_mobile_email" id="entry" placeholder="Re-enter mobile number or email address"><br>
+	<input type="password" id="entry" name="new_password" placeholder="New passwrord"><br>
+	<p id="birthday">Birthday</p>
+<div class="select">
+	<select id="select" label="Day">
+
+		<option value="0" selected="1">Date</option>
+		<option>1</option>
+		<option>1</option>
+		<option>1</option>
+	</select>
+
+	<select id="select" label="Day">
+
+		<option value="0" selected="1">Month</option>
+		<option>January</option>
+		<option>February</option>
+		<option>March</option>
+	</select>
+
+	<select id="select" label="Day">
+
+		<option value="0" selected="1">Year</option>
+		<option>1990</option>
+		<option>1991</option>
+		<option>1992</option>
+	</select>
+	</div>
+	<div class="select_l">
+	<h4>Why do I need to provide my date of birth?</h4>
+	</div><br>
+ <input type="radio" id="radio" name="gender"> <label id="radio">Male</label>
+<input type="radio" id="radio" name="gender"> <label id="radio">Female</label>
+
+<div class="para_l">
+<p>By clicking Create Account, you agree to our Terms and confirm <br>that you have read our Data Policy, including our Cookie Use<br> Policy. You may receive SMS message notifications from<br> Facebook and can opt out at any time.</p>
+</div><br>
+<input type="submit" name="submit" id="submit" value="Create account"><br><br>
+Create a Page for a celebrity, band or business.
+
+</form>
+
+
+</div>
+
+</div>
+
+
+<div class="footer">
+<img src="footer.jpg" align="Footer Image"></div>
+
+</div>
+</body>
+</html>
